@@ -1,3 +1,5 @@
+<img src="./assets/logo/vism.svg" width="100" height="100" alt="Vism logo" />
+
 # Vism
 
 Specification for the Vism esoteric programming language.
