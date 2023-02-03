@@ -42,7 +42,7 @@ As implied earlier, the main idea of Vism is alterning between operations and pu
 
 - `^n`: this is the mode by default. It allows performing operations.
 - `^s`: this is the string mode. It pushes the given string to a target specified beforehand.
-- `^l`: this is the literal mode. Similar to the string mode, but it also a larger set of data, such as integers, floats, booleans, [lists](https://en.wikipedia.org/wiki/Dynamic_array), and more!
+- `^l`: this is the literal mode. Similar to the string mode, but it supports a larger set of data types, such as integers, floats, booleans, [lists](https://en.wikipedia.org/wiki/Dynamic_array), and more!
 
 _- What does "target specified beforehand" mean?_
 
