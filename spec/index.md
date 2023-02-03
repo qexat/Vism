@@ -71,7 +71,7 @@ To better understand the role of registers (see [targets](#targets)), we need to
 As the time of writing, the list of the existing operations in Vism goes as follows:
 
 - `+`: addition/concatenation.
-- `-`: substraction/subsitution.
+- `-`: substraction/substitution.
 - `×`: multiplication.
 - `/`: integer division.
 - `%`: modulo.
