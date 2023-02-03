@@ -88,11 +88,11 @@ Let's take the addition as an example. It is a binary operation, that will look 
 Here is the code that would lead to the diagram situation:
 
 ```vism
-$0^l5^n
-$1^l13^n
-&5^l7^n
-&D^l2^n
-+!
+$0 ^l 5 ^n
+$1 ^l 13 ^n
+&5 ^l 7 ^n
+&D ^l 2 ^n
++ !
 ```
 
 More coming soon!
