@@ -6,7 +6,7 @@ Specification for the Vism esoteric programming language.
 
 **Warning: it is not a definitive version and might change in the future.**
 
-## Exisiting implementations
+## Existing implementations
 
 - [qexat/PyVism](https://github.com/qexat/pyvism)
 
