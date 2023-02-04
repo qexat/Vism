@@ -81,6 +81,8 @@ As the time of writing, the list of the existing operations in Vism goes as foll
 
 The registers are used for the arguments of a chosen instruction.
 
+> Technical note: they don't exist at runtime, since they are just here to determine an operation's operands at compilation.
+
 Let's take the addition as an example. It is a binary operation, that will look at the registers `$0` and `$1`. In those, it will find two addresses (`&0` and `&1` by default), grab the value of these, add them together and put the result in the address corresponding to `$0`.
 
 ![Diagram of how addition works](../assets/frames/Vism_Addition_Process.svg)
