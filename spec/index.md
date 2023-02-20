@@ -13,7 +13,7 @@ _- It's interesting, but now begs the question: what does a Vism program look li
 Let's start with the classic ["Hello World!" program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program):
 
 ```vism
-:0 ^sHello World!\n^n f
+:0 ^l "Hello World!\n" ^n f
 ```
 
 Excuse the lack of syntax highlighting, Vism is not as popular as [Python](<https://en.wikipedia.org/wiki/Python_(programming_language)>) (hopefully, this sentence will be obsolete in the future!).
@@ -41,14 +41,13 @@ Even better, a side-to-side comparison!
 As implied earlier, the main idea of Vism is alterning between operations and putting stuff in memory. For this to help, you have (as the time of writing) three modes:
 
 -   `^n`: this is the mode by default. It allows performing operations.
--   `^s`: this is the string mode. It pushes the given string to a target specified beforehand.
--   `^l`: this is the literal mode. Similar to the string mode, but it supports a larger set of data types, such as integers, floats, booleans, [lists](https://en.wikipedia.org/wiki/Dynamic_array), and more!
+-   `^l`: this is the literal mode. It pushes the given literal to a target specified beforehand. It supports a large set of data types, such as integers, floats, booleans, [lists](https://en.wikipedia.org/wiki/Dynamic_array), and more!
 
 _- What does "target specified beforehand" mean?_
 
 ## Targets
 
-By default, all values you write in `^s` and `^l` go to the [null stream](https://en.wikipedia.org/wiki/Null_device), i.e. get discarded. If you want to save them somewhere, you need to specify a target.
+By default, all values you write in `^l` go to the [null stream](https://en.wikipedia.org/wiki/Null_device), i.e. get discarded. If you want to save them somewhere, you need to specify a target.
 
 There are three kinds of targets:
 
