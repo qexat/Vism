@@ -8,9 +8,11 @@ Specification for the Vism esoteric programming language.
 
 ## Existing implementations
 
-- [qexat/PyVism](https://github.com/qexat/pyvism)
+-   [qexat/PyVism](https://github.com/qexat/pyvism)
 
 ## Introduction
+
+**TEMPORARY NOTICE: THIS IS CURRENTLY OBSOLETE: THE STRING MODE HAS BEEN REMOVED**
 
 **Vism** (IPA: `/vɪzᵊm/`) is an esoteric programming language mainly inspired from [Assembly](https://en.wikipedia.org/wiki/Assembly_language), [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) and, in a less linguistic and more technical aspect, the mode system of the text editor [Vim](<https://en.wikipedia.org/wiki/Vim_(text_editor)>).
 
