@@ -38,7 +38,7 @@ Even better, a side-to-side comparison!
 
 ## Modes
 
-As implied earlier, the main idea of Vism is alterning between operations and putting stuff in memory. For this to help, you have (as the time of writing) three modes:
+As implied earlier, the main idea of Vism is alterning between operations and putting stuff in memory. For this to help, you have (as the time of writing) two modes:
 
 -   `^n`: this is the mode by default. It allows performing operations.
 -   `^l`: this is the literal mode. It pushes the given literal to a target specified beforehand. It supports a large set of data types, such as integers, floats, booleans, [lists](https://en.wikipedia.org/wiki/Dynamic_array), and more!
